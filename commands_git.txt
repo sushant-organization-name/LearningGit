@@ -1,4 +1,4 @@
-# Git Learnings and Basics
+# Git Basics
 1. Git:		Decentralized and Distributed version control system. Open Source providing a community, Fast, Integration with other servers and tools.
 
 2. Repository:	Collection of Files Managed by Git. Quasi hidden .git folder inside your repo. Working Directory or Workspace. One Project shoud have
@@ -160,7 +160,10 @@ git add -A
 
 -----------------------------------------------------------------------------------
 
-# Git Exclude Unwanted Files
+# Git Exclude Unwanted Files via .gitignore file 
 
+# Add a git ignore file in your project directory and mention the files you dont want git to track
+# Check the git status
+# Track the git ignore file and you are good to go!
 
-
+-----------------------------------------------------------------------------------
