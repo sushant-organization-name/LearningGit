@@ -32,3 +32,13 @@ Points to the last commit of the current branch i.e. in the local user git repo
 -----------------------------------------------------------------------------------			
 
 # Fork a Branch
+
+# current branch check
+git branch
+
+# create a new branch updates and switch to a new branch
+git checkout -b updates
+
+# git add .
+# git commit -m "Your message"
+
