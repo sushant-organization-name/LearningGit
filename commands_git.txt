@@ -79,6 +79,39 @@ git add README.md
 # commits the changes/files from your staging area to the Repository(.git folder) locally in your branch.
 git commit -m "Git Commands v1"
 
-# nothing to commit and work tree is cleas
+# nothing to commit and work tree is clean
 git status 
+
+
+NOTE: Actual git repository is contained in .git folder. This is a special directory managed by GIT internally!
+Delete this .git folder and you will no longer be in the version control and it will be a normal folder that can not be version controlled!
+
+-----------------------------------------------------------------------------------
+
+# Started with Existing Project 
+
+# Navigate to a project what you want to push to Git. Once you are at the location, perform below command!
+git init . 
+git add . 
+git commit -m "Your message"
+
+-----------------------------------------------------------------------------------
+
+# Git History
+
+# gives you an idea on your commit history
+git log
+
+# gives you an idea on your commit history but shows the log message and textual difference. Presents merge commands in git diff-tree --cc format
+git show 
+
+-----------------------------------------------------------------------------------
+
+# Express Commits
+
+# Check what files are being tracked by git
+git ls-files 
+
+# Add tracked/modified files to the staging area and then push it to the repository git local
+git commit -am "Adding Modified Files directly and commiting it (skip add step)"
 
