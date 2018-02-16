@@ -55,6 +55,27 @@ git branch -d branch_name
  
 -----------------------------------------------------------------------------------
 
-
 # Resolve Conflicts - From Master Branch
+git merge branch_name
 
+# Resolve the Conflicts and save the file. Once done, you need to commit the changes to your local git repo. 
+git commit -am "Resolving Conflicts"
+
+-----------------------------------------------------------------------------------
+
+# Tags in GIT - Specify a commit. If not, it will be HEAD. 
+
+# Lighweight tag, not much info
+git tag mytag
+
+# Delete a tag
+git tag -d mytag
+
+# Annotated tag 
+git tag -a v1.0 -m "Release v1.0"
+
+# lists your tags
+git tag --list
+
+# Show the details associated with the tag name
+git show tag_name
