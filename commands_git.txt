@@ -15,7 +15,7 @@
 git config --global user.name "Your Name"
 git config --global user.email "Your Email Address"
 
-# To check if global config are set
+# To check if global config are set 
 git config --list
 
 # For more help
@@ -56,4 +56,29 @@ ls -al
 
 # Remote Git State(s)
 1. Remote > this is the combination of all the states(mentioned in above local) and is the public git repository.
+
+-----------------------------------------------------------------------------------
+
+# First Commit
+
+***** WORKING_DIRECTORY *****
+
+# check out whats the status of the git repo
+git status
+
+# Create some file and add some text, say README.md
+
+# Check the status now. 
+git status 
+
+***** STAGING_DIRECTORY *****
+# add the untracked file from your working directory to staging area
+git add README.md 
+
+***** LOCAL_REPOSITORY *****
+# commits the changes/files from your staging area to the Repository(.git folder) locally in your branch.
+git commit -m "Git Commands v1"
+
+# nothing to commit and work tree is cleas
+git status 
 
