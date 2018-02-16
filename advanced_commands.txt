@@ -55,4 +55,4 @@ git branch -d branch_name
  
 -----------------------------------------------------------------------------------
 
-# Resolve Conflicts
+# Resolve Conflicts - From Master Branch
