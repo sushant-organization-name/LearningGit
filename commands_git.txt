@@ -115,3 +115,16 @@ git ls-files
 # Add tracked/modified files to the staging area and then push it to the repository git local
 git commit -am "Adding Modified Files directly and commiting it (skip add step)"
 
+-----------------------------------------------------------------------------------
+
+# Backing Out Changes after add/commit from Staging/Repository(.git local)
+
+# unstage the changes (after git add ) command. This will only unstage your changes from Staging Area, but your changes will be displayed as it is in Working directory 
+git reset HEAD FILE_NAME
+
+# To change the files as per the last commit in your Repository.git folder
+git checkout -- FILE_NAME
+
+
+
+
