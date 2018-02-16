@@ -39,6 +39,20 @@ git branch
 # create a new branch updates and switch to a new branch
 git checkout -b updates
 
-# git add .
-# git commit -m "Your message"
+# Previously used commands to commit the changes to user git local 
+git add .
+git commit -m "Your message"
+
+# Switch branches (from updates to master branch)
+git checkout master
+
+# Merge changes from advanced branch to master branch
+git merge updates i.e. git merge branch_name 
+
+# Check history using alias. This should show HEAD, master and updates branch on same location i.e. same commit id. 
+git hist
+
+# Delete a branch from your local after merging in your changes
+git branch -d branch_name
+ 
 
