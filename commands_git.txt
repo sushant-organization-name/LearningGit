@@ -125,6 +125,21 @@ git reset HEAD FILE_NAME
 # To change the files as per the last commit in your Repository.git folder
 git checkout -- FILE_NAME
 
+-----------------------------------------------------------------------------------
+
+# History and Alias
+
+# gives histroy in oneline, graph of branches in your repo, decorated with different colors, all refs along with HEAD are listed as commit on command line!
+git log --oneline --graph --decorate --all
+
+# Creating an alias of the bigger commands (hist is alias here and in quotes its the actual command"
+git config --global alias.hist "log --all --graph --decorate --oneline"
+
+# You can also mention the file name, which will only fetch the commit history of that particular file
+git hist -- README.md
+
+
+
 
 
 
