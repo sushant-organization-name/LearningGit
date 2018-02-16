@@ -140,7 +140,7 @@ git hist -- README.md
 
 -----------------------------------------------------------------------------------
 
-# Rename and Delete Files (after commit)
+# # From INSIDE OF GIT ( NOT WINDOWS) - RENAME AND DELETE after commit (pushing the files to local user git repo)
 
 # rename a file
 git mv old_file_name.txt new_file_name.txt
@@ -148,7 +148,19 @@ git mv old_file_name.txt new_file_name.txt
 # delete a file
 git rm file_name_tobe_removed 
 
+-----------------------------------------------------------------------------------
 
+# From OUTSIDE OF GIT (WINDOWS) - RENAME AND DELETE
+
+# Track only the deleted files - From outside of Git, git considers renaming of a file as deleted file instead of rename. So, it will track both deleted and renamed file!
+git add -u 
+
+# Track both additions and deleted files
+git add -A
+
+-----------------------------------------------------------------------------------
+
+# Git Exclude Unwanted Files
 
 
 
