@@ -79,3 +79,26 @@ git tag --list
 
 # Show the details associated with the tag name
 git show tag_name
+
+-----------------------------------------------------------------------------------
+
+# Stashing in Git - 
+
+# stores the changes that we were performing in an array
+git stash
+
+# list the stash 
+git stash list
+
+# status of the repo 
+git status
+
+# take out the saved changes in the stash 
+git stash pop 
+
+# lists the stash - it should be empty after popping the changes out of Stack
+git stash list 
+
+-----------------------------------------------------------------------------------
+
+# Time Travel and 
