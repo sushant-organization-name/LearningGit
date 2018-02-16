@@ -101,4 +101,6 @@ git stash list
 
 -----------------------------------------------------------------------------------
 
-# Time Travel and 
+# Time Travel - Reset and Reflog
+
+ 
