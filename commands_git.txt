@@ -138,6 +138,15 @@ git config --global alias.hist "log --all --graph --decorate --oneline"
 # You can also mention the file name, which will only fetch the commit history of that particular file
 git hist -- README.md
 
+-----------------------------------------------------------------------------------
+
+# Rename and Delete Files (after commit)
+
+# rename a file
+git mv old_file_name.txt new_file_name.txt
+
+# delete a file
+git rm file_name_tobe_removed 
 
 
 
