@@ -1,0 +1,59 @@
+# Git Learnings and Basics
+1. Git:		Decentralized and Distributed version control system. Open Source providing a community, Fast, Integration with other servers and tools.
+
+2. Repository:	Collection of Files Managed by Git. Quasi hidden .git folder inside your repo. Working Directory or Workspace. One Project shoud have
+				one repo.
+				
+3. Commits:		Snapshots of your work are stored via commits. Stored on branches (master | @xyz_branch). Changes are made to files!
+
+4. Github:	Git project itself is stored in Github. Open Source version control system with Github having some extra features such as Issue Tracking, Web Pages
+			etc.
+
+-----------------------------------------------------------------------------------			
+
+# Setting up your global configurations like name and email address!
+git config --global user.name "Your Name"
+git config --global user.email "Your Email Address"
+
+# To check if global config are set
+git config --list
+
+# For more help
+git config --help 
+
+# Set up to use notepad in Gitbash
+notepad++ ~/.bash_profile
+alias npp='notepad++ --multiInst -nosession'
+git config --global core.editor "notepad++ -multiInst -nosession"
+
+# Check if notepad works!
+git config --global -e
+
+#TODO: Set up P4Merge as Merge and Diff Tool.
+
+-----------------------------------------------------------------------------------
+
+# Initializing an empty git repository in your local desktop
+
+# Navigate to the folder > Create a new directory where you want to manage your code > Navigate to the newly created directory
+cd C:\Learnings
+mkdir GitProjects
+cd GitProjects/
+
+# git init command creates a folder with git initiated in it > Navigate to the folder > ls -al will list all folders available in the folder 
+git init demo
+cd demo/
+
+# You will see .git folder initiated here
+ls -al
+
+-----------------------------------------------------------------------------------
+
+# Local Git States
+1. Working Directory > Contains the location where you are working on the files locally
+2. Staging Directory > is the location where the files are prepared to make them move to the next stage
+3. Repository(.git folder) > Files that are commited and saved to the git repository
+
+# Remote Git State(s)
+1. Remote > this is the combination of all the states(mentioned in above local) and is the public git repository.
+
