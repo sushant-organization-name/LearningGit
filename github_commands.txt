@@ -73,3 +73,5 @@ git remote show origin
 
 -----------------------------------------------------------------------------------
 
+# Get details on the specific commit id via Command Line. SHA key can be obtained from Github-UI in commits directory
+git show commit_id(SHA key)
