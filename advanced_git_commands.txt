@@ -101,6 +101,15 @@ git stash list
 
 -----------------------------------------------------------------------------------
 
-# Time Travel - Reset and Reflog
+# Time Travel - Reset and Reflog (used when you need to rollback your commit)
 
- 
+# gets the history of your commits
+git hist (as per alias)
+
+# Least destructive reset, changes the HEAD where it is pointed to. You will still have your changes in the working directory
+# File is unstaged and placed in our working directory 
+git reset commit_id --soft 
+
+# Default reset is --mixed. You dont have to mention it explicitly but no harm in mentioning it as well. 
+
+***************REMOVE THIS USING RESET***************
