@@ -1,0 +1,18 @@
+# Github Repository Commands
+
+# add a origin
+git remote add origin "Git Project URL.git"
+
+# push your changes
+git push -u origin master --tags
+
+	- -u option sets the tracking option from your master branch on local git repo to your master branch remote repo
+	- --tags to pass on any tags that was set up earlier. (optional)
+	- origin is the remote repository
+	- master is the local git repo branch
+
+-----------------------------------------------------------------------------------
+
+# Authentication Overview
+
+# SSH validations
