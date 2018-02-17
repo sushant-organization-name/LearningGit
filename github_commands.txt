@@ -38,3 +38,26 @@ git remote -v
 # git clone creates a new folder in your local system after your repository name. To avoid this by default, use below syntax
 # This way giti will clone into the folder name you provided. 
 git clone git_url name_of_the_folder_you_want
+
+-----------------------------------------------------------------------------------
+
+# commands to avoid the long message that you get while tracking the remote branch. (I get this during my project work most of the times)
+git config --global push.default simple
+
+-----------------------------------------------------------------------------------
+
+# Fetch v/s Pull
+
+Updated our remote repository which our branch master is not aware about in local git repository
+Updated our local repository branch master and commited the changes to the master branch at remote repo. Make a git push. 
+
+Above steps will reject the push request as they want us to fetch the changes first from remote repo!
+
+pull = fetch (all changes from remote repository) + merge(all changes to our local git URL branch)
+
+**BEST PRACTICE - Make a fetch followed by merge request before pushing your changes to the github remote repo. **
+
+
+
+
+
