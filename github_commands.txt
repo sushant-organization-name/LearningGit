@@ -15,4 +15,26 @@ git push -u origin master --tags
 
 # Authentication Overview
 
-# SSH validations
+# SSH set up
+Clear instructions are provided here at 'https://help.github.com/articles/connecting-to-github-with-ssh/'
+
+# Validate if you are able to login to github via ssh
+ssh -T git@github.com
+Say yes and enter your passphrase (during ssh setup step)
+
+-----------------------------------------------------------------------------------
+
+# Creat Repo / Starter repository
+Go to github.com and create a new repo with README.md files (github automatically creates a branch master for you)
+
+-----------------------------------------------------------------------------------
+
+# Clone - get a copy of the project on your local system, remote is automatically set(git remote -v), .git is automatically configured
+git clone ssh_url or http_url
+
+# Try commands after cloning
+git remote -v 
+
+# git clone creates a new folder in your local system after your repository name. To avoid this by default, use below syntax
+# This way giti will clone into the folder name you provided. 
+git clone git_url name_of_the_folder_you_want
