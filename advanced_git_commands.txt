@@ -111,5 +111,34 @@ git hist (as per alias)
 git reset commit_id --soft 
 
 # Default reset is --mixed. You dont have to mention it explicitly but no harm in mentioning it as well. 
+git reset commit_id --mixed
 
-***************REMOVE THIS USING RESET***************
+## SOFT
+- A - B - C (master)
+HEADpoints to C and the index matches C.
+
+When we run git reset --soft B, master (and thus HEAD) now points to B, but the index still has the changes from C; 
+git status will show them as staged. So if we run git commit at this point, we'll get a new commit with the same changes
+as C.
+
+## MIXED 
+- A - B - C (master)
+Now let's do git reset --mixed B. (Note: --mixed is the default option). Once again, master and  HEAD point to B,
+but this time the index is also modified to match B. If we run git commit at this point, nothing will happen since
+the index matches HEAD. We still have the changes in the working directory, but since they're not in the index,
+git status shows them as unstaged. To commit them, you would git add and then commit as usual.
+
+## HARD
+And finally, --hard is the same as --mixed (it changes your HEAD and index), except that --hard also modifies your 
+working directory. If we're at C and run git reset --hard B, then the changes added in C, as well as any uncommitted
+changes you have, will be removed, and the files in your working copy will match commit B. Since you can permanently
+lose changes this way, you should always run git status before doing a hard reset to make sure your working directory
+is clean or that you're okay with losing your uncommitted changes.
+
+git reset commit_id --hard
+ 
+# Reflog (get history back using reflog if you have done a hard commit and want to regain your changes!)
+git reflog
+
+# Syntax to get your changes/history back (commit_id is the commit you want to go back to)
+git reset --hard commit_id
