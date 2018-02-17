@@ -57,7 +57,19 @@ pull = fetch (all changes from remote repository) + merge(all changes to our loc
 
 **BEST PRACTICE - Make a fetch followed by merge request before pushing your changes to the github remote repo. **
 
+# Fetches the changes from remote repo to your local repo in git 
+git fetch 
 
+# Moves the fetched changes to the working directory
+git pull 
 
+-----------------------------------------------------------------------------------
 
+# Update the remote reference of your project in case this has changed
+git remote set-url origin new_git_url
+
+# Provides more details about the origin
+git remote show origin
+
+-----------------------------------------------------------------------------------
 
