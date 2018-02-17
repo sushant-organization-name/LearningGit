@@ -142,3 +142,4 @@ git reflog
 
 # Syntax to get your changes/history back (commit_id is the commit you want to go back to)
 git reset --hard commit_id
+-----------------------------------------------------------------------------------
