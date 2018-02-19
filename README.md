@@ -1,1 +1,1 @@
-##This is my ReadMe file##
+Git ang Guthub commands 
