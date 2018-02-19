@@ -62,7 +62,6 @@ ls -al
 # First Commit
 
 ***** WORKING_DIRECTORY *****
-
 # check out whats the status of the git repo
 git status
 
