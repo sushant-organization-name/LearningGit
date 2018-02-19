@@ -20,7 +20,7 @@ git push -u remote_name(origin) branch_name
 
 	-u sets up the tracking relationship between the local and remote branch. 
 	
-# push and pull without specifying the name of the branch as you have set up the tracking relationship earlier
+# Push and Pull without specifying the name of the branch as you have set up the tracking relationship earlier
 git push 
 git pull
 
@@ -53,6 +53,31 @@ git branch -a
 # It will only work in single remotes repo. Git will figure out and look for the branch name in local and if it fails, it will 
 # look into remote repo. Branch name is unique among all your remotes, it will create.  
 git checkout branch_name_same_as_remote_branch_name
+
+-----------------------------------------------------------------------------------
+
+# Pull all the changes from master and branches in remote repo to your working directory
+git pull --all
+
+# Merge your local changes to the branch
+git merge branch_name
+
+# Pull all the changes from master and branches in remote repo to your local repo and then working directory
+git fetch --all
+git pull
+
+-----------------------------------------------------------------------------------
+
+# Delete a remote branch from your local command line
+git push origin :branch_name_to_be_deleted
+
+-----------------------------------------------------------------------------------
+
+# Pull with Rebase
+
+Rebase: rewinds the current commits to the current state of the branch to a point to where your branch you are merging in
+originally diverged. Then playing back to commits that happened you want to bring in and then on top of that playing to any 
+commits to the branch you are currently on
 
 -----------------------------------------------------------------------------------
 
