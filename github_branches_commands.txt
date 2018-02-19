@@ -22,6 +22,11 @@ git push -u remote_name(origin) branch_name
 	
 # push and pull without specifying the name of the branch as you have set up the tracking relationship earlier
 git push 
-git pull 
+git pull
+
+-----------------------------------------------------------------------------------			
+
+# Merge branch locally 
+git merge branch_name
 
 
