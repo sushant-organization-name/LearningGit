@@ -54,5 +54,11 @@ git branch -a
 # look into remote repo. Branch name is unique among all your remotes, it will create.  
 git checkout branch_name_same_as_remote_branch_name
 
+-----------------------------------------------------------------------------------
 
+# Rename a file
+
+-----------------------------------------------------------------------------------
+
+# merge remote repo to master remote branch
 
