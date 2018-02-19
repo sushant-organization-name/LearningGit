@@ -29,4 +29,30 @@ git pull
 # Merge branch locally 
 git merge branch_name
 
+-----------------------------------------------------------------------------------			
+
+# Remove dead/deleted remote branches
+git fetch -p
+
+# Delete branch locally
+git branch -d branch_name
+
+-----------------------------------------------------------------------------------			
+
+# Link a local branch to the already created branch in remote repo (by you or someone else)
+
+# Create a new branch from GitHub UI
+# Edit a file from Github & commit it( if you want! )
+
+# Fetch everything from remote repo to local repo 
+git fetch 
+
+# See all the branches (local + remote)
+git branch -a
+
+# It will only work in single remotes repo. Git will figure out and look for the branch name in local and if it fails, it will 
+# look into remote repo. Branch name is unique among all your remotes, it will create.  
+git checkout branch_name_same_as_remote_branch_name
+
+
 
