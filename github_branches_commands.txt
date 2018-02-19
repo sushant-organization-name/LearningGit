@@ -1,0 +1,27 @@
+# GitHub Create a new Branch
+
+You will be on master branch by default on github. In order to create a new branch, in the branch dropdown, write the name of the
+new branch that you want to create. 
+
+Once done, you will find a new branch that is listed in the dropdown and github automatically changes your branch from master 
+to example.
+
+-----------------------------------------------------------------------------------			
+
+# Create branch locally
+git checkout -b branch_name
+
+# remove a file
+git rm file_name.txt
+git status
+
+# push the newly created branch to github
+git push -u remote_name(origin) branch_name 
+
+	-u sets up the tracking relationship between the local and remote branch. 
+	
+# push and pull without specifying the name of the branch as you have set up the tracking relationship earlier
+git push 
+git pull 
+
+
