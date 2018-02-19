@@ -79,6 +79,29 @@ Rebase: rewinds the current commits to the current state of the branch to a poin
 originally diverged. Then playing back to commits that happened you want to bring in and then on top of that playing to any 
 commits to the branch you are currently on
 
+# Make an update on any of the file in the Github (other peers can make the commit too)
+# Now make any changes in your local working directory > commit it. 
+# You remember now to fetch the changes from your remote repo to your local repo. 
+# git status and you will see the message "Your local branch and origin/branch_name have diverged"
+# git pull --rebase
+
+The last command will rewind the HEAD changes in your local branch, put the changes from remote to your local, and then place 
+the changes on top of that. 
+
+EXACT MESSAGE -> "First, rewinding head to replay your work on top of it..."
+
+-----------------------------------------------------------------------------------
+
+# Github Graphs
+git hist (alias)
+git log --oneline --graph
+
+-----------------------------------------------------------------------------------
+
+# Resolve Conflicts
+you can use a merge tool in order to resolve changes
+git commit -m "Changes that you made should be commited"
+
 -----------------------------------------------------------------------------------
 
 # Rename a file
