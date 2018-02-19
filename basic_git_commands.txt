@@ -29,7 +29,7 @@ git config --global core.editor "notepad++ -multiInst -nosession"
 # Check if notepad works!
 git config --global -e
 
-#TODO: Set up P4Merge as Merge and Diff Tool.
+# TODO: Set up P4Merge as Merge and Diff Tool.
 
 -----------------------------------------------------------------------------------
 
