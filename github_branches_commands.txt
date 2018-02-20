@@ -104,7 +104,7 @@ git commit -m "Changes that you made should be commited"
 
 -----------------------------------------------------------------------------------
 
-# Tags in git
+# Git Tags 
 
 # shows the list tags
 git tag 
@@ -139,7 +139,12 @@ git push --force remote_name tag_name
 
 # Comparisions in Github
 
-# One way to check comparisions is create a pull request and then move to compare section between different branches. 
+# Comparing Branches
+One way to check comparisions is create a pull request and then move to compare section between different branches. 
+
+# Comparing Commits
+One way to compare commits is go to commits tab in github branch and choose a specific commit id. Scroll down on the new page and check the comparisions between the commits (chosen commit_id v/s previous commit_id)
+Another way is create a pull request and then choose commits in the dropdown instead of the branch name
 
 
 
