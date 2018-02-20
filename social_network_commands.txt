@@ -26,12 +26,12 @@ Note: Commits keep adding to the existing pull request until pull request is acc
 
 -----------------------------------------------------------------------------------			
 
-# Synchronize the changes from your upstream repo to the origin remote 
+# Synchronize the Changes from your upstream repo to the origin remote 
 
 # Get all the remotes - git clone will automatically create an origin remote for you
 git remote -v
 
-# Add a Remote - upstream is the name here
+# Add a Remote - upstream is the name here similar to origin
 git remote add upstream git_url_from_where_the_project_was_forked
 
 # Synchronize changes from the forked url to the remote url
