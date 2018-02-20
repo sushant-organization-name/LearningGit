@@ -127,6 +127,13 @@ git tag -d tag_name
 # Push the deleted tag or update the deleted tag
 git push origin :deleted_tag_name
 
+# Update an existing tag to point to latest commit id
+git tag -f existing_tag_name latest_commit_id
+
+git push remote_name tag_name -> This will give a reject message as unstable already exists on Github.
+
+# Force push the commit
+git push --force remote_name tag_name
 
 -----------------------------------------------------------------------------------
 
