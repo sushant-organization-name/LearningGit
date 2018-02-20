@@ -1,0 +1,23 @@
+# Social Coding
+
+# Copying a github repo using Fork - This will let you copy the repository in your personal system
+Github UI has a button to fork. 
+
+-----------------------------------------------------------------------------------			
+
+# Create a branch on your fork
+git clone git_url_of_ur_fork
+
+# create a branch 
+git checkout -b branch_name
+
+# Make changes
+
+# Add the changes
+git add .
+
+# Commit the changes
+git commit -m "Your commit message"
+
+# Push the changes 
+git push -u remote_name(origin) branch_name
