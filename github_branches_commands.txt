@@ -104,6 +104,21 @@ git commit -m "Changes that you made should be commited"
 
 -----------------------------------------------------------------------------------
 
+# Tags in git
+
+# shows the list tags
+git tag 
+
+# create a tag - tag_name is the name of the tag and branch_name is the branch you want this tag to be associated with
+git tag tag_name branch_name
+
+# Annotated tags - we have the option of using git show command specifying the tag name 
+git tag -a 'tag_name' -m 'Message' commit_id
+
+# git show
+
+-----------------------------------------------------------------------------------
+
 # Rename a file
 
 -----------------------------------------------------------------------------------
