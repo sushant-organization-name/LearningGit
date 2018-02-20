@@ -115,7 +115,12 @@ git tag tag_name branch_name
 # Annotated tags - we have the option of using git show command specifying the tag name 
 git tag -a 'tag_name' -m 'Message' commit_id
 
-# git show
+# Push a tag name to your Git repo
+git push remote_name(origin) tag_name
+
+# Push all tags at once in git
+git push --tags
+
 
 -----------------------------------------------------------------------------------
 
