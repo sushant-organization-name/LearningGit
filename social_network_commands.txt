@@ -21,3 +21,19 @@ git commit -m "Your commit message"
 
 # Push the changes 
 git push -u remote_name(origin) branch_name
+
+Note: Commits keep adding to the existing pull request until pull request is accepted
+
+-----------------------------------------------------------------------------------			
+
+# Synchronize the changes from your upstream repo to the origin remote 
+
+# Get all the remotes - git clone will automatically create an origin remote for you
+git remote -v
+
+# Add a Remote - upstream is the name here
+git remote add upstream git_url_from_where_the_project_was_forked
+
+# Synchronize changes from the forked url to the remote url
+git pull upstream branch_name(master)
+
