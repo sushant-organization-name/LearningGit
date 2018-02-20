@@ -146,6 +146,14 @@ One way to check comparisions is create a pull request and then move to compare 
 One way to compare commits is go to commits tab in github branch and choose a specific commit id. Scroll down on the new page and check the comparisions between the commits (chosen commit_id v/s previous commit_id)
 Another way is create a pull request and then choose commits in the dropdown instead of the branch name
 
+# Comparing Tags
+One way to check comparisions is create a pull request and then move to compare section between different tags. 
+
+# Advanced Comparing
+branch_name@{3days} v/s branch 
+branch_name@{2015-08-02} v/s branch_name
+HEAD@{3} v/s HEAD
+
 
 
 -----------------------------------------------------------------------------------
