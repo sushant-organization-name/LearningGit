@@ -121,6 +121,12 @@ git push remote_name(origin) tag_name
 # Push all tags at once in git
 git push --tags
 
+# Delete a tag from local repo
+git tag -d tag_name
+
+# Push the deleted tag or update the deleted tag
+git push origin :deleted_tag_name
+
 
 -----------------------------------------------------------------------------------
 
