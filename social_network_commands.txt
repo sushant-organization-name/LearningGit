@@ -37,3 +37,18 @@ git remote add upstream git_url_from_where_the_project_was_forked
 # Synchronize changes from the forked url to the remote url
 git pull upstream branch_name(master)
 
+-----------------------------------------------------------------------------------			
+
+# Issues Tracking
+
+You can create a new label, edit an existing label name or description, change color of the label.
+
+# Milestones
+Use Milestones to create collections of Issues and Pull Requests for a particular release or project. A kind of checkpoint !
+
+# Create Issues
+New Issue button should create a new issue for you. Just explore the other options like adding a label, description etc.
+
+
+
+
