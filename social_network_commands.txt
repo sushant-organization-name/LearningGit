@@ -53,10 +53,33 @@ git commit -m "Making changes to close the issue, close #4"
 
 # Associate Previous commit with an existing issue
  In your commit update , use #<followed by the issue number>
+
 -----------------------------------------------------------------------------------
 
 # GISTS
- 
+Simple way to share code, enter files or just a snip, micro git repository, many same operations and local access
+
+# Create Gists
+From Github UI, We can create a new gists and add it. 
+
+# clone and make changes to gists
+git clone <gist_git_url>
+
+# make changes
+
+# commit with messages
+git commit -m "Your message"
+
+# push
+git push origin master
+
+-----------------------------------------------------------------------------------
+
+# Sharing GISTS
+Just use the URL and to make your URL fancy , use bitly :)
+
+# Delete Gists
+Just click the Delete button from git hub UI and to remove the gist folder locally, use rm -rf gist-name
 
 
 
