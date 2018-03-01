@@ -172,4 +172,3 @@ git checkout -b branch_name origin/branch_name
 -----------------------------------------------------------------------------------
 
 # merge remote repo to master remote branch
-
