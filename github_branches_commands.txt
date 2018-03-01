@@ -154,7 +154,10 @@ branch_name@{3days} v/s branch
 branch_name@{2015-08-02} v/s branch_name
 HEAD@{3} v/s HEAD
 
+-----------------------------------------------------------------------------------
 
+# Track remote branch
+git branch --set-upstream-to=<remote>/<branch-name> <local-branch-name>
 
 -----------------------------------------------------------------------------------
 
