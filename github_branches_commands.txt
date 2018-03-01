@@ -159,6 +159,12 @@ HEAD@{3} v/s HEAD
 # Track remote branch
 git branch --set-upstream-to=<remote>/<branch-name> <local-branch-name>
 
+# Fetch all the branches from local (origin) and remote (upstream) repositories
+git fetch --all
+
+# We still don't have the local branch created that tracks the upstream branch
+git checkout -b branch_name origin/branch_name
+
 -----------------------------------------------------------------------------------
 
 # Rename a file
